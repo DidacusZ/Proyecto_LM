@@ -41,9 +41,25 @@ function a(){
 
 
 
+function GuardarDatos(form){
+	
+	let nombre = form.nombre.value;
+	let telefono = form.telefono.value;
+	let fechaAlta = form.fechaAlta.value;
+	let fechaSalida = form.fechaSalida.value;	
+	
+	
+	window.open("index.html");
+	
+}
 
 
-
+function BuscarPaciente(form){
+	
+		let telefono = form.telefono.value;
+		
+		
+}
 
 
 

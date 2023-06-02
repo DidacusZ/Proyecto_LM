@@ -3,8 +3,30 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Ingreso nuevo paciente</title>
+<script src="script/script.js"></script>
+<link rel="stylesheet" href="estilo/estilo.css" type="text/css"	media="screen">
 </head>
 <body>
 
+<h1>Ingresa tu mascota</h1>
+
+	<form>
+
+		<label>Nombre de la mascota:</label>
+		<input type="text" size="50" name="nombre" id="id"  />
+	<br><br>
+		<label>Telefono del dueño:</label>
+		<input	type="text" size="50" name="telefono"  />
+	<br><br>
+		<label>fecha de alta (dd-mm-yyyy):</label>
+		<input	type="text" size="50" name="fechaAlta"  />		
+	<br><br>
+		<label>fecha de salida (dd-mm-yyyy):</label>
+		<input	type="text" size="50" name="fechaSalida"  />
+	<br><br>		
+		<input type="submit" value="Ingresar" name="datos" onClick="GuardarDatos(this.form)" />	
+	
+	</form>
+	
 </body>
 </html>
