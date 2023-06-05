@@ -3,12 +3,14 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Alta paciente</title>
+<script src="script/script.js"></script>
+<link rel="stylesheet" href="estilo/estilo.css" type="text/css"	media="screen">
 </head>
 <body>
 
 <h1>Dar de alta a un paciente</h1>
 
-<form>
+	<form>
 
 		<label>Telefono del dueño:</label>
 		<input	type="text" size="50" name="telefono"  />
@@ -16,13 +18,12 @@
 		<input type="submit" value="Buscar paciente" name="datos" onClick="BuscarPaciente(this.form)" />	
 	
 	</form>
-	
-	
+		
 	<!-- al buscar sale debajo el paciente y se mantiene lo de  arriba por si te has equivocado
 	buscar el correcto -->
 	
+	<div id="miContenedor"></div>
 	
-	
-		
+			
 </body>
 </html>
