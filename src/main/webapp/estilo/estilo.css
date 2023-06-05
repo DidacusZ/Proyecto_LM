@@ -1,0 +1,14 @@
+button{
+  background-color: rgb(4, 128, 245);
+  color: white;
+}
+
+div>input{
+  background-color: rgb(4, 128, 245);
+  color: white;
+}
+
+h1{	
+	color: rgb(4, 128, 245);
+	font-weight:bold;	
+}
